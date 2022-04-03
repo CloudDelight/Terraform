@@ -53,3 +53,7 @@ resource "aws_s3_bucket" "lifecycle-testing" {
 }
 
 ############ S3 lifecycle rule ###########
+
+
+
+// adding a dummy line
