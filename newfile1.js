@@ -3,6 +3,3 @@
 
 
 // updated newfile1.js
-
-
-// newly updated newlfil1.js
