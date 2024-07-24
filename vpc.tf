@@ -7,6 +7,8 @@ resource "aws_vpc" "demo_vpc" {
   }
 }
 
+
+
 resource "aws_subnet" "demo_vpc_public_subnet_1" {
   vpc_id     = aws_vpc.demo_vpc.id
   cidr_block = "10.0.1.0/24"
