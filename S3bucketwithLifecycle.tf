@@ -1,6 +1,6 @@
 #############Create S3 Bucket ##########
 
-resource "aws_s3_bucket" "lifecycle-testing" {
+resource "aws_s3_bucket" "lifecycle-testing1" {
   bucket = "lifecycle-testing12345"
   acl    = "private"
 }
