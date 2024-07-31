@@ -33,7 +33,7 @@ resource "aws_s3_bucket" "lifecycle-testing" {
     prefix = "archive/"
 
     tags {
-      "rule" = "archive"
+      rule = archive
     }
 
     transition {
