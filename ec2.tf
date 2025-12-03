@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "instance1" {
   ami           = "amiID"
-  instance_type = "t3.micro"
+  instance_type = "t2.micro"
 
   tags = {
     Name = "HelloWorld"
